@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f5443dd22f554d31911ff2b9748b14fc" Name="Diagram1">
+        <EntityTypeShape EntityType="WebShopSanaModel.Categories" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebShopSanaModel.Customers" Width="1.5" PointX="1.5" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebShopSanaModel.OrderDetails" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebShopSanaModel.Orders" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebShopSanaModel.ProductCategories" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebShopSanaModel.Products" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebShopSanaModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="WebShopSanaModel.FK_ProductCategories_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="WebShopSanaModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="WebShopSanaModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="WebShopSanaModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="WebShopSanaModel.FK_ProductCategories_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
